@@ -16,6 +16,7 @@ app.get("/", (req, res) => {
 
 //user api route
 app.use("/v1/api/user", require("./Routes/UserRoute/userRoute"));
+app.use("/v1/api", require("./Routes/UserAuth/userAuth"));
 
 app.use(errorHandeler);
 
