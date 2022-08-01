@@ -28,7 +28,7 @@ const Dashboard = () => {
   if (isLoading) {
     return <h1>loading....</h1>;
   }
-
+  console.log(contact);
   return (
     <div className="con">
       <section className="main">
@@ -45,6 +45,7 @@ const Dashboard = () => {
 
       <section className="show_contact">
         <h1 className="h1">Your Contact List</h1>
+
         {contact.length > 0 ? (
           <div className="contact">
             {contact.map((con) => {
