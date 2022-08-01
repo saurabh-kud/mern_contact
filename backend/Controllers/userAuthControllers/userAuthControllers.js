@@ -35,6 +35,7 @@ const register = asyncHandler(async (req, res) => {
       name: user.name,
       email: user.email,
       phone: user.phone,
+      token: generateJwt(user.id),
     });
   } else {
     res.status(400);

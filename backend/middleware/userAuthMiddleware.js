@@ -17,6 +17,9 @@ const protect = asyncHandler(async (req, res, next) => {
 
       //verifing token with secret code token
       const decoded = jwt.verify(token, process.env.JWT_TOKEN);
+      if (!decoded) {
+        res.status(400).send({ msg: "user not authorized" });
+      }
 
       // getting user detais from jwt token and appending in req so can use this info
       req.user = await userAuth.findById(decoded.id).select("-password");
