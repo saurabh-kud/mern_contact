@@ -1,10 +1,8 @@
 # Contact Manager MERN
 
-Live Preview - [Click Here](https://pizza-ap.netlify.app/)
-
 <br/>
 <div align="center">
-  <img alt="Demo" src="public/mockup.png" />
+  <img alt="Demo" src="/frontend/public/mockup.png" />
 </div>
 <br/>
 <br/>
