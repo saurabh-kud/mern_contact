@@ -2,7 +2,7 @@
 
 <br/>
 <div align="center">
-  <img alt="Demo" src="https://raw.githubusercontent.com/saurabh-kud/mern_contact/main/frontend/public/mockup.png" />
+  <img  src="https://raw.githubusercontent.com/saurabh-kud/mern_contact/main/frontend/public/mockup.png" />
 </div>
 <br/>
 <br/>
