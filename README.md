@@ -18,7 +18,7 @@
 
 ## live-link 🔗
 
-<a href="https://mern-api-fmff.onrender.com/"><b>https://mern-api-fmff.onrender.com/</b></a>
+<a target="_blank" href="https://mern-api-fmff.onrender.com/"><b>https://mern-api-fmff.onrender.com/</b></a>
 
 # main features
 
