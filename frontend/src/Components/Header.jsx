@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../css/header.css";
-import { FaSignInAlt, FaSignOutAlt, FaUser } from "react-icons/fa";
+import { FaSignInAlt, FaSignOutAlt, FaUser, FaHeadset } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../features/auth/authSlice";
 const Header = () => {
@@ -30,6 +30,10 @@ const Header = () => {
                 >
                   <FaSignOutAlt /> Logout
                 </button>
+                <li>
+                  <FaHeadset />
+                  <Link to="/contact-us">Contact Us</Link>
+                </li>
               </li>
             ) : (
               <>
@@ -40,6 +44,10 @@ const Header = () => {
                 <li>
                   <FaSignInAlt />
                   <Link to="/login">Login</Link>
+                </li>
+                <li>
+                  <FaHeadset />
+                  <Link to="/contact-us">Contact Us</Link>
                 </li>
               </>
             )}

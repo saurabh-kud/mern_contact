@@ -9,6 +9,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import AddContact from "./Components/AddContact";
 import EditContact from "./Components/EditContact";
+import ContactUs from "./Pages/ContactUs";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/signup" element={<Register />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/add" element={<AddContact />} />
           <Route path="/edit" element={<EditContact />} />
         </Routes>

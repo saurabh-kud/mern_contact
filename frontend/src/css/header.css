@@ -43,6 +43,7 @@
 
 .list a {
   color: white;
+  width: 140px;
 }
 .list a:hover {
   color: blueviolet;
