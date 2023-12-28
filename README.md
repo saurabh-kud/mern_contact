@@ -1,10 +1,24 @@
-# Contact Manager Application
+<h2 align='center'>Contact Manager 📃</h2>
+<p align="center">
+<a href="https://github.com/saurabh-kud"><img title="Author" src="https://img.shields.io/badge/Author-saurabh-kud--red.svg?style=for-the-badge&logo=github"></a>
+</p>
 
-## this application is for handle the contacts for a user like first user will create their account now they can store their contact list , all the data is stored on server so when logout and then again login it will be presist.
+<p align="center">
+<a href="https://github.com/saurabh-kud"><img title="Followers" src="https://img.shields.io/github/followers/saurabh-kud?color=teal&style=flat-square"></a>
+<a href="https://github.com/saurabh-kud/mern_contact/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/saurabh-kud/mern_contact?color=brown&style=flat-square"></a>
+<a href="https://github.com/saurabh-kud/mern_contact/network/members"><img title="Forks" src="https://img.shields.io/github/forks/saurabh-kud/mern_contact?color=lightgrey&style=flat-square"></a>
+<a href="https://github.com/saurabh-kud/mern_contact/issues"><img title="issues" src="https://img.shields.io/github/issues/saurabh-kud/mern_contact?style=flat-square">
+</a>
+
+</p>
+
+<p align="center">
+    Contact manager web App
+</p>
 
 ## live-link 🔗
 
-https://mern-api-fmff.onrender.com/
+<a href="https://mern-api-fmff.onrender.com/"><b>https://mern-api-fmff.onrender.com/</b></a>
 
 # main features
 
@@ -107,7 +121,7 @@ Database
 ```sh
 
 # Clone the repo
-$ git clone `repo name`
+$ git clone https://github.com/saurabh-kud/mern_contact.git
 
 # Install
 $ npm install
@@ -115,10 +129,27 @@ $ npm install
 # Setting Up ENV
 > setup .env file for database and access token
 
+NODE_ENV="production"
+MONGO_URI=mongodb+srv://username:password0@clusteruser.0ctgaid.mongodb.net/Mern-app?retryWrites=true&w=majority
+JWT_TOKEN=your token
+
 # Start
 $ npm start
 
-# Access
+# Access your app
 $ http://localhost:${PORT}
 
 ```
+
+## Author
+
+👤 **Saurabh kumar**
+
+- Github: [@saurabh-kud](https://github.com/saurabh-kud)
+- LinkedIN: [@saurabh-kud](https://www.linkedin.com/in/saurabh-kud/)
+
+---
+
+## License
+
+&copy; Saurabh Kumar | MIT
