@@ -65,7 +65,7 @@ $ npm install
 > setup .env file for database and access token
 
 NODE_ENV="production"
-MONGO_URI=mongodb+srv://username:password0@clusteruser.0ctgaid.mongodb.net/Mern-app?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://username:password0@clusteruser.0ctgaid.mongodb.net/Mern-app?retryWrites=true
 JWT_TOKEN=your token
 
 # Start
