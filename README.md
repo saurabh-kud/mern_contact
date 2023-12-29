@@ -49,6 +49,33 @@ Database
 
 - MongoDB
 
+
+
+## Installation
+
+```sh
+
+# Clone the repo
+$ git clone https://github.com/saurabh-kud/mern_contact.git
+
+# Install
+$ npm install
+
+# Setting Up ENV
+> setup .env file for database and access token
+
+NODE_ENV="production"
+MONGO_URI=mongodb+srv://username:password0@clusteruser.0ctgaid.mongodb.net/Mern-app?retryWrites=true&w=majority
+JWT_TOKEN=your token
+
+# Start
+$ npm start
+
+# Access your app
+$ http://localhost:${PORT}
+
+```
+
 ## Example
 
 ### register a user
@@ -116,30 +143,7 @@ Database
 </div>
 <br/>
 
-## Installation
 
-```sh
-
-# Clone the repo
-$ git clone https://github.com/saurabh-kud/mern_contact.git
-
-# Install
-$ npm install
-
-# Setting Up ENV
-> setup .env file for database and access token
-
-NODE_ENV="production"
-MONGO_URI=mongodb+srv://username:password0@clusteruser.0ctgaid.mongodb.net/Mern-app?retryWrites=true&w=majority
-JWT_TOKEN=your token
-
-# Start
-$ npm start
-
-# Access your app
-$ http://localhost:${PORT}
-
-```
 
 ## Author
 
